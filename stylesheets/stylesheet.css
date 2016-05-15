@@ -145,10 +145,11 @@ a {
   margin-bottom: 1em; }
 .main-content code {
   padding: 2px 4px;
-  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-family: Ubuntu, monospace;
   font-size: 0.9rem;
   color: #383e41;
   background-color: #f3f6fa;
+  background-image: linear-gradient(90deg, #82839E, #CED0F2); 
   border-radius: 0.3rem; }
 .main-content pre {
   padding: 0.8rem;
