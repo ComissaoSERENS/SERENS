@@ -21,7 +21,7 @@ a {
 
 .collapse, .navbar-collapse {
   background-color: #41815d;
-  background-image: linear-gradient(150deg, #3f47cc, #41815d); 
+  background-image: linear-gradient(150deg, #3f47cc, #A1728C); 
   border-bottom: 2px solid rgba(255,255,255, 0.4) !important;
 }
 
