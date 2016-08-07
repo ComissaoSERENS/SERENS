@@ -18,6 +18,19 @@
   <link href="stylesheet/animate.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Play|Lobster|Ubuntu" rel="stylesheet" type="text/css">
   <link rel="shortcut icon" href="favicon.ico"/>
+  <script>
+    $(document).ready(function(){
+    $('a[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+        var target = this.hash;
+        $target = $(target);
+        $('html, body').stop().animate({
+            'scrollTop':  $target.offset().top //no need of parseInt here
+        }, 900, 'swing', function () {
+            window.location.hash = target;
+        });
+    });
+  </script>
   
   <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
   <script language="JavaScript" type="text/javascript" src="javascript/jquery.min.js"></script>
